@@ -361,19 +361,26 @@ p{
 
 /* Footer */
 #footer{
-    background-color: #393E46;
+    background-color: #222831;
 }
 
 #footer .container-fluid{
-    padding: 3% 15% 1% 15%;
+    padding:3% 15% 1% 15%;
     text-align: center;
 }
 
 #footer a{
     display: block;
-    color: #222831;
+    color: #393E46;
     text-decoration: none;
     font-size: 0.8rem;
+    display: inline;
+    margin: 10px;
+}
+
+#footer i{
+    font-size: 0.8rem;
+    color: #393E46;
 }
 
 #footer a:hover{
