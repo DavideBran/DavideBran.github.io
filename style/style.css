@@ -1,0 +1,381 @@
+/* body */
+
+body{
+    margin: 0px;    
+}
+
+/* font style */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+/* Navbar */
+
+.logo{
+    background-color: #222831;
+}
+
+@media (max-width: 768px) {
+    .navbar .container-fluid{
+        margin-left: 24px;
+    }
+}
+
+/* Title Section */
+
+#title{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #222831;
+    color: #FFD369;
+}
+
+#title #name{
+    font-size: 3.5rem;
+}
+
+#title #work{
+    font-size: 2.3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #title #name{
+        font-size: 2.3rem;
+    }
+    
+    #title #work{
+        font-size: 1.5rem;
+    }
+}
+
+#title img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#title .mb-auto{
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #title .mb-auto{
+        text-align: center;
+    }
+    #title #name{
+        font-size: 2.5rem;
+    }
+    
+    #title #work{
+        font-size: 1.4rem;
+    }
+}
+
+#title .col-12{
+    margin-top: 10%;
+}
+
+#title p{
+    font-size: 1.2rem;
+    color: #EEEEEE;
+}
+#title i{
+    color: #FFD369;
+}
+
+/* About me Section */
+
+#about-me{
+    padding: 3% 0;
+    background-color: #393E46;
+    
+}
+
+#about-me .container-fluid{
+    padding: 7% 8%;
+}
+
+#about-me .card{
+    border: none;
+    background-color: transparent;
+}
+
+#about-me .card h1, #about-me p{
+    color: #FFD369;
+}
+
+#about-me .card p{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+
+}
+
+@media (max-width: 567px) {
+    #about-me .row .col-4 p{
+        font-size: 1rem;
+    }
+    
+    #about-me .row .col-6 .card-text{
+        font-size: 1rem;
+    }
+}
+
+#about-me h1{
+    font-size: 3.5rem;
+}
+
+#about-me p{
+    font-size: 1.3rem;
+}
+
+
+
+#about-me img{
+    width: 70%;
+    position: relative;
+    top: 10%;
+}
+
+@media (max-width: 768px){
+    #about-me img{
+        width: 70%;
+        position: static;
+    } 
+
+    #about-me .text-md-start{
+        margin-bottom: 10%;
+    }
+
+    #about-me .text-container{
+        padding: 0 7%;
+    }
+
+    #about-me .card-text p{
+        font-size: 1rem;
+    }
+    #about-me .card-title h1{
+        font-size: 2.5rem;
+    }
+}
+
+#about-me hr{
+    color: #EEEEEE;
+}
+
+#about-me .chaos-img{
+    position: absolute;
+    max-width: 50%;
+    left: 43%;
+    z-index: -1;
+}
+
+@media (min-width: 1200px) {
+    
+    #about-me .chaos-img{
+        z-index: 0;
+    }
+}
+
+
+/* Instruction */
+
+#instruction{
+    background-color: #EEEEEE;
+    padding: 3% 0;
+}
+
+#instruction .container-fluid{
+    padding: 7% 8%;
+}
+
+#instruction hr{
+    color: #222831;
+}
+
+#instruction .row p{
+    font-size: 1.3rem;
+    color: #222831;
+}
+
+#instruction img{
+    width: 20%;
+    border-radius: 80%;
+    margin: 0 auto 3%;
+}
+
+#instruction .card{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 5%;
+}
+
+
+#instruction .carousel-indicators button{
+    background-color: #222831;
+}
+
+@media (max-width: 576px) {
+    #instruction img{
+        width: 50%;
+    }
+}
+
+/* Skill Section */
+
+#skills{
+    background-color: #222831;
+    padding-top: 3%;
+}
+
+#skills .container-fluid{
+    padding-bottom: 0;
+}
+
+#skills .row hr{
+    color: #EEEEEE;
+}
+#skills .skill-line p{
+    color: #FFD369;
+    font-size: 1.3rem;
+}
+
+#skills p{
+    color: #EEEEEE;
+    font-size: 1.3rem;
+}
+
+
+#skills i{
+    color: #222831;
+    font-size: 1rem;
+}
+
+#skills .container-fluid{
+    padding: 7% 15%;
+}
+
+#skills .progress{
+    height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+#skills .progress-bar{
+    padding-left: 2%;
+    text-align: left;
+    background-color: #FFD369;
+}
+
+@media (max-width: 576px) {
+    #skills .skill-line p{
+        font-size: 1rem;
+    }
+}
+
+/* contact me section */
+
+#contact-me{
+    background-color: #222831;
+    padding: 3% 0;
+}
+
+#contact-me .row hr{
+    color: #EEEEEE;
+}
+
+#contact-me .row p{
+    color: #FFD369;
+    font-size: 1.3rem;
+}
+
+#contact-me .container-fluid{
+    padding: 5% 15% 0 15%;
+}
+
+
+#contact-me h1{
+    color: #eee;
+    font-size: 4rem;
+}
+
+#contact-me .contact-me-container{
+    margin: auto;
+    padding-top: 5%;
+}
+
+#contact-me form{
+    color: #EEEEEE;
+    background-color: #252c35;
+    border-radius: 30px;
+    padding: 5% 0;
+}
+
+#contact-me #yourname, #contact-me #youremail{
+    width: 50%;
+}
+
+#contact-me form textarea{
+    width: 50%; height: 50%;
+}
+
+#contact-me form input, #contact-me form textarea {
+    margin: auto;
+}
+
+#contact-me img{
+    width: 70%;
+    margin-top: 5%;
+}
+
+#contact-me a{
+    margin: 10px;
+    color: #EEEEEE;
+    font-size: 1.3rem;
+}
+
+#contact-me a:hover{
+    color: #FFD369;
+}
+
+@media (max-width: 576px) {
+    #contact-me h1{
+        font-size: 2.5rem;
+    }
+
+    #contact-me .contact-me-container{
+        margin-bottom: 10%;
+    }
+
+    #contact-me .row p{
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Footer */
+#footer{
+    background-color: #393E46;
+}
+
+#footer .container-fluid{
+    padding: 3% 15% 1% 15%;
+    text-align: center;
+}
+
+#footer a{
+    display: block;
+    color: #222831;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#footer a:hover{
+    color: #1b2027;
+}
