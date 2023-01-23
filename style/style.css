@@ -22,12 +22,6 @@ p{
     background-color: #222831;
 }
 
-@media (max-width: 768px) {
-    .navbar .container-fluid{
-        margin-left: 24px;
-    }
-}
-
 /* Title Section */
 
 #title{
@@ -45,36 +39,6 @@ p{
     font-size: 2.3rem;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-    #title #name{
-        font-size: 2.3rem;
-    }
-    
-    #title #work{
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1024px){
-    #title #name{
-        font-size: 2rem;
-    }
-    
-    #title #work{
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1167px){
-    #title #name{
-        font-size: 2.2rem;
-    }
-    
-    #title #work{
-        font-size: 1.5rem;
-    }
-}
-
 
 #title img{
     width: 100%;
@@ -84,19 +48,6 @@ p{
 
 #title .mb-auto{
     text-align: left;
-}
-
-@media (max-width: 768px) {
-    #title .mb-auto{
-        text-align: center;
-    }
-    #title #name{
-        font-size: 2.5rem;
-    }
-    
-    #title #work{
-        font-size: 1.4rem;
-    }
 }
 
 #title .col-12{
@@ -138,16 +89,6 @@ p{
 
 }
 
-@media (max-width: 567px) {
-    #about-me .row .col-4 p{
-        font-size: 1rem;
-    }
-    
-    #about-me .row .col-6 .card-text{
-        font-size: 1rem;
-    }
-}
-
 #about-me h1{
     font-size: 3.5rem;
 }
@@ -164,28 +105,6 @@ p{
     top: 10%;
 }
 
-@media (max-width: 768px){
-    #about-me img{
-        width: 70%;
-        position: static;
-    } 
-
-    #about-me .text-md-start{
-        margin-bottom: 10%;
-    }
-
-    #about-me .text-container{
-        padding: 0 7%;
-    }
-
-    #about-me .card-text p{
-        font-size: 1rem;
-    }
-    #about-me .card-title h1{
-        font-size: 2.5rem;
-    }
-}
-
 #about-me hr{
     color: #EEEEEE;
 }
@@ -196,14 +115,6 @@ p{
     left: 43%;
     z-index: -1;
 }
-
-@media (min-width: 1200px) {
-    
-    #about-me .chaos-img{
-        z-index: 0;
-    }
-}
-
 
 /* Instruction */
 
@@ -240,12 +151,6 @@ p{
 
 #instruction .carousel-indicators button{
     background-color: #222831;
-}
-
-@media (max-width: 576px) {
-    #instruction img{
-        width: 50%;
-    }
 }
 
 /* Skill Section */
@@ -292,12 +197,6 @@ p{
     padding-left: 2%;
     text-align: left;
     background-color: #FFD369;
-}
-
-@media (max-width: 576px) {
-    #skills .skill-line p{
-        font-size: 1rem;
-    }
 }
 
 /* contact me section */
@@ -365,21 +264,6 @@ p{
     color: #FFD369;
 }
 
-@media (max-width: 576px) {
-    #contact-me h1{
-        font-size: 2.5rem;
-    }
-
-    #contact-me .contact-me-container{
-        margin-bottom: 10%;
-    }
-
-    #contact-me .row p{
-        font-size: 0.8rem;
-    }
-
-}
-
 /* Footer */
 #footer{
     background-color: #222831;
@@ -406,4 +290,154 @@ p{
 
 #footer a:hover{
     color: #1b2027;
+}
+
+
+/*----------------------------- responsive screen adapt ----------------------------- */
+
+/* smarthphone screen */
+@media (max-width: 567px) {
+
+    /* About me */
+
+    #about-me .row .col-4 p{
+        font-size: 1rem;
+    }
+    
+    #about-me .row .col-6 .card-text{
+        font-size: 1rem;
+    }
+
+    /* Instruction */
+
+    #instruction img{
+        width: 50%;
+    }
+
+    /* Skills */
+
+    #skills .skill-line p{
+        font-size: 1rem;
+    }
+
+    /* contact-me */
+
+    #contact-me h1{
+        font-size: 2.5rem;
+    }
+
+    #contact-me .contact-me-container{
+        margin-bottom: 10%;
+    }
+
+    #contact-me .row p{
+        font-size: 0.8rem;
+    }
+
+    /* Footer */
+
+    #footer a{
+        font-size: 0.6rem;
+        margin: 5px;
+    }
+    
+    #footer i{
+        font-size: 0.6rem;
+    }
+
+    #footer .container-fluid{
+        padding:3% 0 1% 0;
+        text-align: center;
+    }    
+}
+
+/* other screen (ipad and laptop) */
+
+@media (max-width: 768px) {
+
+    /* navbar */
+
+    .navbar .container-fluid{
+        margin-left: 24px;
+    }
+
+    /* about me */
+
+    #about-me img{
+        width: 70%;
+        position: static;
+    } 
+
+    #about-me .text-md-start{
+        margin-bottom: 10%;
+    }
+
+    #about-me .text-container{
+        padding: 0 7%;
+    }
+
+    #about-me .card-text p{
+        font-size: 1rem;
+    }
+    #about-me .card-title h1{
+        font-size: 2.5rem;
+    }
+
+    /* title */
+
+    #title .mb-auto{
+        text-align: center;
+    }
+
+    #title #name{
+        font-size: 2.5rem;
+    }
+    
+    #title #work{
+        font-size: 1.4rem;
+    }
+}
+
+    /* title */
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    #title #name{
+        font-size: 2.3rem;
+    }
+    
+    #title #work{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+
+    #title #name{
+        font-size: 2rem;
+    }
+    
+    #title #work{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1167px){
+
+    #title #name{
+        font-size: 2.2rem;
+    }
+    
+    #title #work{
+        font-size: 1.5rem;
+    }
+}
+
+    /* about me */
+
+@media (min-width: 1200px) {
+    
+    #about-me .chaos-img{
+        z-index: 0;
+    }
 }
