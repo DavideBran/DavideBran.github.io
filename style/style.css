@@ -320,7 +320,7 @@ p{
         font-size: 1rem;
     }
 
-    /* contact-me */
+    /* contact me section */
 
     #contact-me h1{
         font-size: 2.5rem;
@@ -384,10 +384,6 @@ p{
     }
 
     /* title */
-
-    #title .mb-auto{
-        text-align: center;
-    }
 
     #title #name{
         font-size: 2.5rem;
