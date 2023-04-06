@@ -25,7 +25,16 @@ a{
 
 .logo{
     background-color: #222831;
-    padding: 2% 15%;
+    padding: 2% 13%;
+}
+
+.logo_text{
+    font-family: 'Poppins', sans-serif;
+    color: #EEEEEE;
+}
+
+.logo_text:hover{
+    color: #FFD369;
 }
 
 #navbar-section .navbar a.nav-link{
@@ -44,7 +53,7 @@ a{
 
 #title{
     text-align: center;
-    padding: 5% 15%;
+    padding: 5% 13%;
     background-color: #222831;
     color: #FFD369;
 }
